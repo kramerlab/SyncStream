@@ -2,8 +2,7 @@
 
 SyncStream java implementation proposed in KDD 2014:
 
-"Prototype-based learning on concept-drifting data streams"
-
+"Prototype-based learning on concept-drifting data streams";
 J.Shao, Z.Ahmadi, S.Kramer
 
 

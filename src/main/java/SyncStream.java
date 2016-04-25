@@ -1278,12 +1278,12 @@ public int kNNHierClassifier(StreamHierTree sht, SyncObject test, int k, double 
      	int initSize = 	new Integer(args[4]); // the initial number of object in each partition for the original clustering, default 500
     	int T3 = new Integer(args[5]); //number of instances (Level 0), default 1000
     	int T2 = new Integer(args[6]); //number of objects (Level 1), default 250
-    	double theta = new Double(args[7]); //60 degree    	
+    	double theta = new Double(args[7]); //60 degree   
+    	int numC = new Integer(args[8]); //num classes 	
 
     	File f = new File(dir);
     	f.mkdirs();
     	String fn = dataPath.substring(dataPath.lastIndexOf("/")+1, dataPath.length()); 
-    	int numC = 58;
     	boolean type = true;
     	boolean normFlag = true; // normalize the data or not? default = true
     	boolean noise = false; //containing obvious noise or not? default = false
